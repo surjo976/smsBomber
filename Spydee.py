@@ -82,7 +82,7 @@ def update():
         psb("\n    \033[92m[\033[37m*\033[92m] \033[37mStarting Tool...")
         time.sleep(0.8)
         
-        os.system("cd .. && cd AppStick && python Tbomb.py")
+        os.system("cd .. && cd AppStick && python Spydee.py")
     
     else:
         if (authorMsg != newMsg) and (newMsg != "blank"):
